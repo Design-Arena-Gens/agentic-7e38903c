@@ -1,0 +1,12 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";background:#0b1220;color:#e5e7eb}a{color:inherit}
+.app{min-height:100dvh;display:flex;flex-direction:column}
+.content{padding:1rem;max-width:1200px;margin:0 auto;width:100%}
+.card{background:#0f172a;border:1px solid #233055;border-radius:12px;padding:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.input{background:#0b1220;border:1px solid #233055;border-radius:8px;color:#e5e7eb;padding:0.6rem}
+.button{background:#2563eb;border:none;padding:0.6rem 0.9rem;color:#fff;border-radius:8px;cursor:pointer}
+.button.secondary{background:#334155}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border-bottom:1px solid #233055;padding:0.6rem;text-align:left}
+.kpi{font-size:1.6rem;font-weight:700}
+.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
